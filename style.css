@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    background-color: rgb(24, 24, 24);
+}
+.header-nav a {
+    color:white;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background:rgb(0,0,0);
+    padding:15px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .header {
+    max-width: 100vw;
+    margin: 0 auto;
+    background-color: black;
+  }
+  .header-nav ul {
+    list-style: none;
+    margin: 0 20% 0 20%;
+    display:flex;
+  }
+  
+  .header-nav li {
+    flex:1;
+  }
+  
+.container {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        width: 75%;
+        margin-left: 12.5%;
+        
+      }
+.items {
+        flex:1;
+        background-color: rgb(3, 3, 3);
+        text-align: center;
+      }
+
+      .items h1 {
+        color: white;
+        font-size: 70px;
+        margin-bottom: 15px;
+    }
+    .items a{
+        padding: 20px;
+        color: blue;
+    }
+    .items img {
+        width: 50%;
+        display: block;
+    }
+  
+.items1 {
+      flex:1;
+      background-color: white;
+      text-align: center; 
+  }
+.items1 a {
+    padding: 20px;
+    color: blue;
+}
+  .items1 h1 {
+      color: rgb(5, 5, 5);
+      font-size: 70px;
+      margin-bottom: 15px;
+  }
+ .items img  {
+        width: 50%;
+        display: block;
+        margin-left: 150px;
+        margin-top: 85px;
+    }
+
+  .specs {
+    width: 75%;  
+    background-color: white;
+    margin-left: 12.5%;
+  }
+  
+
+  .magic {
+      height: 350px;
+      color: white;
+      text-align: center;
+      padding-top: 15px;
+      margin-bottom: 25px;
+  }
+  .magic h1 {
+      font-size: 70px;
+      margin-bottom: auto;
+  }
+  .magic p {
+    font-size: 30px;
+}
+  .top {
+      background-color: rgb(14, 14, 14);
+      height: 120px;
+      text-align: center;
+      padding-top: 5px;
+  }
+  .top a, figure {
+    display: inline-block;
+
+}
+figcaption {
+    font-size: 12px;
+    margin: 5px 0 0 0;
+    color: #ffffff; } 
+.top a :hover {
+    color: blue;
+}
+
+.bottom {
+    display: flex;
+    height: 350px;
+    background-image: url("something.png");
+    width: 75%;  
+    justify-content: center;
+    margin-left: 12.5%;
+}
+.middle {
+    display: flex;
+    height: 350px;
+    background-image: url("find.png");
+    width: 75%;  
+    justify-content: center;
+    margin-left: 12.5%;
+    
+}
+footer {
+    display: flex;
+    height: 600px;
+    margin-top: 20px;
+    background-color: rgb(231, 231, 231); 
+    justify-content: center;
+    background-color: rgb(46, 46, 46);
+}
+table {
+    padding-right: 50px;
+    padding-left: 100px;
+}
+  th, td {
+      text-align: left;
+      padding: 20px;
+      border-bottom: 1px solid rgb(31, 31, 31);
+  }
